@@ -23,6 +23,9 @@ mkdir build
 cd build
 sudo cmake .. -DCMAKE_PREFIX_PATH=~/libtorch
 
+// Need to update cmake?
+// Follow: https://askubuntu.com/a/829311
+
 make
 sudo make install
 ```
